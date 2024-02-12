@@ -30,7 +30,7 @@ import Slider from "./pages/slider/Slider";
 
 function App() {
   return (
-    <BrowserRouter basename = "/ideal-garbanzo">
+    <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/halls" element={<List/>}/>
