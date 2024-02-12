@@ -1,4 +1,4 @@
-import{
+import {
   BrowserRouter,
   Routes,
   Route,
@@ -30,29 +30,29 @@ import Slider from "./pages/slider/Slider";
 
 function App() {
   return (
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/halls" element={<List/>}/>
-      <Route path="/halls/:id" element={<Hall/>}/>
-      <Route path="/login" element={<Login/>}/>
-      <Route path="/register" element={<Signup />} />
-      <Route path="halls/register" element={<Signup />} />
-      <Route path="/about" element={< About/>} />
-      <Route path="halls/login" element={<Login/>}/>
-      <Route path="halls/hyderabad" element={<Listcity1/>}/>
-      <Route path="halls/mumbai" element={<Listcity2/>}/>
-      <Route path="halls/delhi" element={<Listcity3/>}/>
-      <Route path="/services" element={<Services />} />
-      <Route path="/fhalls/:id" element={<ListFeatured />} />
-      <Route path="/contact" element={<MailList />} />
-      <Route path="/forgot" element={<Forgot />} />
-      <Route path="/forgotid" element={<Forgotid/>}/>
-      <Route path="/slider" element={<Slider/>}/>
-    </Routes>
-    
+    <BrowserRouter basename="/ideal-garbanzo">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/halls" element={<List />} />
+        <Route path="/halls/:id" element={<Hall />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Signup />} />
+        <Route path="halls/register" element={<Signup />} />
+        <Route path="/about" element={< About />} />
+        <Route path="halls/login" element={<Login />} />
+        <Route path="halls/hyderabad" element={<Listcity1 />} />
+        <Route path="halls/mumbai" element={<Listcity2 />} />
+        <Route path="halls/delhi" element={<Listcity3 />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/fhalls/:id" element={<ListFeatured />} />
+        <Route path="/contact" element={<MailList />} />
+        <Route path="/forgot" element={<Forgot />} />
+        <Route path="/forgotid" element={<Forgotid />} />
+        <Route path="/slider" element={<Slider />} />
+      </Routes>
+
     </BrowserRouter>
-    
+
   );
 }
 

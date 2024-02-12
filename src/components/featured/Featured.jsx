@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import useFetch from "../../hooks/useFetch";
 import "./featured.css";
-import {CircularProgress} from '@material-ui/core'
+import CircularProgress from '@mui/material/CircularProgress'; 
 
 
 const Featured = () => {
