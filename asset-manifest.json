@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ideal-garbanzo/static/css/main.b76ef2e0.css",
-    "main.js": "/ideal-garbanzo/static/js/main.6c65745b.js",
+    "main.js": "/ideal-garbanzo/static/js/main.d2c9ec45.js",
     "static/media/header1.jpg": "/ideal-garbanzo/static/media/header1.1aa64aab27564f9178f9.jpg",
     "static/media/mandap7.jpg": "/ideal-garbanzo/static/media/mandap7.bdfaedd4a277793285fa.jpg",
     "static/media/homebg.jpeg": "/ideal-garbanzo/static/media/homebg.8bac506c6c3ac9a2db3b.jpeg",
     "index.html": "/ideal-garbanzo/index.html",
     "main.b76ef2e0.css.map": "/ideal-garbanzo/static/css/main.b76ef2e0.css.map",
-    "main.6c65745b.js.map": "/ideal-garbanzo/static/js/main.6c65745b.js.map"
+    "main.d2c9ec45.js.map": "/ideal-garbanzo/static/js/main.d2c9ec45.js.map"
   },
   "entrypoints": [
     "static/css/main.b76ef2e0.css",
-    "static/js/main.6c65745b.js"
+    "static/js/main.d2c9ec45.js"
   ]
 }
